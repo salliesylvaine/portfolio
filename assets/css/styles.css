@@ -89,7 +89,7 @@ body.dark-theme {
 }
 
 .change-theme {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: var(--title-color);
   margin-right: var(--mb-1);
   cursor: pointer;
@@ -1022,10 +1022,15 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+  .nav__btns {
+    display: flex;
+    justify-content: center;
+  }
 
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
   }
+
   .nav__list {
     column-gap: 0;
   }
@@ -1062,7 +1067,50 @@ img {
   .project__img {
     width: 200px;
   }
+
+  .testimonial__data,
+  .testimonial__header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial__img {
+    margin-right: 0;
+    margin-bottom: var(--mb-0-25);
+  }
+
+  .testimonial__data,
+  .testimonial__description {
+    text-align: center;
+  }
 }
 /* For medium devices */
+@media screen and (min-width: 568px) {
+  .home__content {
+    grid-template-columns: max-content 1fr 1fr;
+  }
+
+  .home__data {
+    grid-column: initial;
+  }
+
+  .home__img {
+    order: 1;
+    justify-self: center;
+  }
+
+  .about__container,
+  .skills__container,
+  .portfolio__content,
+  .project__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .qualification__sections {
+    display: grid;
+    grid-template-columns: 0.66fr;
+    justify-content: center;
+  }
+}
 
 /* For large devices */
