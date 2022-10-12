@@ -509,55 +509,55 @@ img {
 }
 
 .skills__html {
-  width: 90%;
+  width: 100%;
 }
 .skills__css {
-  width: 80%;
+  width: 100%;
 }
 
 .skills__js {
-  width: 90%;
+  width: 100%;
 }
 
 .skills__react {
-  width: 85%;
+  width: 100%;
 }
 
 .skills__ts {
-  width: 40%;
+  width: 100%;
 }
 
 .skills__node {
-  width: 70%;
+  width: 100%;
 }
 
 .skills__firebase {
-  width: 70%;
+  width: 100%;
 }
 
 .skills__sql {
-  width: 90%;
+  width: 100%;
 }
 
 .skills__express {
-  width: 80%;
+  width: 100%;
 }
 
 .skills__nest {
-  width: 40%;
+  width: 100%;
 }
 
-.skills__figma {
-  width: 20%;
+/* .skills__figma {
+  width: 100%;
 }
 
 .skills__sketch {
-  width: 85%;
+  width: 10%;
 }
 
 .skills__photoshop {
-  width: 90%;
-}
+  width: 100%;
+} */
 
 .skills__close .skills__list {
   height: 0;
