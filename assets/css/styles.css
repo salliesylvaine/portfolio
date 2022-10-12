@@ -714,7 +714,7 @@ img {
   row-gap: 1rem;
 }
 
-.services__modal-services {
+.services__modal-service {
   display: flex;
 }
 
@@ -1114,9 +1114,14 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .skills__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* does it look better side by side? weston's had this but mine didn't, adding it for now (skills__Container) */
+
   .qualification__sections {
     display: grid;
-    grid-template-columns: 0.66fr;
+    grid-template-columns: 0.6fr;
     justify-content: center;
   }
 }
@@ -1226,7 +1231,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(2, 218px);
     justify-content: center;
   }
 
