@@ -1303,7 +1303,9 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(2, 238px);
+
+    justify-content: center;
   }
 
   .portfolio__content {
