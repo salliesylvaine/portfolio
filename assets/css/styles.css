@@ -830,6 +830,7 @@ img {
 .project__img {
   width: 232px;
   justify-self: center;
+  opacity: 0;
 }
 
 /*==================== TESTIMONIAL ====================*/
@@ -864,7 +865,7 @@ img {
   margin-bottom: var(--mb-2-5);
 }
 
-.testimonial__icon_star {
+.testimonial__icon-star {
   color: var(--first-color);
 }
 
