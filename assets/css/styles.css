@@ -209,6 +209,11 @@ img {
   color: var(--first-color);
 }
 
+.nav__btns {
+  display: flex;
+
+  justify-content: center;
+}
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
@@ -243,6 +248,12 @@ img {
 
 .nav__icon {
   font-size: 1.2rem;
+}
+
+.nav__btns {
+  display: flex;
+
+  justify-content: center;
 }
 
 .nav__close {
@@ -1025,6 +1036,7 @@ img {
   }
   .nav__btns {
     display: flex;
+
     justify-content: center;
   }
 
