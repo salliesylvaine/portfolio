@@ -884,26 +884,45 @@
             </div>
           </div>
 
-          <form action="" class="contact__form grid">
+          <form
+            action="https://formspree.io/f/mpznjeqz"
+            method="POST"
+            class="contact__form grid"
+          >
             <div class="contact__inputs grid">
               <div class="contact__content">
-                <label for="" class="contact__label">Name</label>
-                <input type="text" class="contact__input" />
+                <label for="name" class="contact__label">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="contact__input"
+                />
               </div>
               <div class="contact__content">
-                <label for="" class="contact__label">Email</label>
-                <input type="email" class="contact__input" />
+                <label for="email" class="contact__label">Email</label>
+                <input
+                  type="email"
+                  name="'email"
+                  id="'email"
+                  class="contact__input"
+                />
               </div>
             </div>
             <div class="contact__content">
               <label for="" class="contact__label">Project</label>
-              <input type="text" class="contact__input" />
+              <input
+                type="text"
+                name="project"
+                id="project"
+                class="contact__input"
+              />
             </div>
             <div class="contact__content">
               <label for="" class="contact__label">Message</label>
               <textarea
-                name=""
-                id=""
+                name="message"
+                id="message"
                 cols="0"
                 rows="7"
                 class="contact__input"
@@ -911,12 +930,9 @@
             </div>
 
             <div>
-              <a
-                href="mailto:salliemckee7@gmail.com"
-                class="button button--flex"
-              >
+              <button type="submit" id="button" class="button button--flex">
                 Send Message <i class="uil uil-message button__icon"></i>
-              </a>
+              </button>
             </div>
           </form>
         </div>
